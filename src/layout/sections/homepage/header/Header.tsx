@@ -11,7 +11,7 @@ export const Header = () => {
         <StyledHeader>
             <Logo/>
             <Menu/>
-            <Button as={"a"}  backgroundColor={"#676CDB"}>
+            <Button as={"a"}  $backgroundColor={"#676CDB"}>
                 <ButtonLabel width={"117px"} height={"30px"}>Contact Me</ButtonLabel>
             </Button>
 

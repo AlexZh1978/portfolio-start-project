@@ -1,17 +1,25 @@
 import styled from "styled-components";
 
 type FlexWrapperPropsType = {
-    direction?: string;
-    justify?: string;
-    align?: string;
-    wrap?: string;
+    $direction?: string;
+    $justify?: string;
+    $align?: string;
+    $wrap?: string;
+    gap?: string;
+    $width?: string;
+    $height?: string;
+    $backgroundColor?: string;
 }
 
 export const FlexWrapper = styled.div<FlexWrapperPropsType>`
     display: flex;
-    flex-direction: ${props => props.direction || 'row'};
-    justify-content: ${props => props.justify || 'flex-start'};
-    align-items: ${props => props.align || 'stretch'};
-    flex-wrap: ${props => props.wrap || 'nowrap'};
+    flex-direction: ${props => props.$direction || 'row'};
+    justify-content: ${props => props.$justify || 'flex-start'};
+    align-items: ${props => props.$align || 'stretch'};
+    flex-wrap: ${props => props.$wrap || 'nowrap'};
+    gap: ${props => props.gap || '0'};
+    width: ${props => props.$width || `100%`};
+    height: ${props => props.$height || `100%`};
+    background-color: ${props => props.$backgroundColor || `transparent`};
     
 `

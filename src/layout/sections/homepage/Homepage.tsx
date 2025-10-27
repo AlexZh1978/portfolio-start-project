@@ -15,32 +15,6 @@ export const Homepage = () => {
             <Photo />
             <Header/>
             <HeroDesc/>
-                {/*<StyledMain>*/}
-                {/*    <FlexWrapper align={"center"} justify={"space-around"}>*/}
-                {/*        <div>*/}
-                {/*            <p>Hello! <br/>*/}
-                {/*                I’m Zarror Nibors*/}
-                {/*            </p>*/}
-
-                {/*            <p>*/}
-                {/*                I’m freelance <StyledH1>web developer</StyledH1> based in <br/>Indonesia who loves to*/}
-                {/*                craft*/}
-                {/*                attractive design experiences for the web.*/}
-                {/*            </p>*/}
-
-                {/*            <div>*/}
-                {/*                <a href={"mailto:mail@gmai.com"}>*/}
-                {/*                    <Icon iconId={"mail"}/>*/}
-                {/*                    Email me*/}
-                {/*                </a>*/}
-                {/*                <a href={"cv.pdf"} download>*/}
-                {/*                    <Icon iconId={"download"}/>*/}
-                {/*                    Download CV*/}
-                {/*                </a>*/}
-                {/*            </div>*/}
-                {/*        </div>*/}
-                {/*    </FlexWrapper>*/}
-                {/*</StyledMain>*/}
         </StyledHomepage>
     );
 };
